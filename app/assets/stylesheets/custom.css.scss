@@ -1,0 +1,22 @@
+.styled-table {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.styled-table td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+.styled-table tr td:first-child {
+  background-color: #3366CC;
+  color: white;
+  font-weight: bold;
+}
+
+.styled-table tr td:last-child {
+  background-color: #F0F0D6;
+}
